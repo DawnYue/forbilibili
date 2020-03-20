@@ -3,6 +3,9 @@
 using namespace cv;
 int main()
 {
+
+
+
 	//读取本地的一张图片便显示出来
 	//imread后面的文件路径可以根据自己的实际路径修改
 	Mat img = imread("E:/1.png");
