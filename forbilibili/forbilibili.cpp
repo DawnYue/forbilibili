@@ -1,20 +1,22 @@
-﻿// forbilibili.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
-
+﻿#include <opencv2/opencv.hpp>
 #include <iostream>
-
+using namespace cv;
 int main()
 {
-    std::cout << "Hello World!\n";
+	//读取本地的一张图片便显示出来
+	//imread后面的文件路径可以根据自己的实际路径修改
+	Mat img = imread("E:/1.png");
+	imshow("test", img);
+	//等待用户按键
+	waitKey(0);
+	return 0;
 }
+/*
+https://blog.csdn.net/a1570853041/article/details/79702380  OpenCV-3.4.1+VS2017的安装与配置
+https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2017-relnotes#-visual-studio-2017-version-15921-   
+https://opencv.org/opencv-3-4-1/
+https://pc.qq.com/detail/13/detail_22693.html   git 下载
+https://blog.csdn.net/qq_36556893/article/details/87977280   GitHub插件的安装和使用
 
-// 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
-// 调试程序: F5 或调试 >“开始调试”菜单
 
-// 入门使用技巧: 
-//   1. 使用解决方案资源管理器窗口添加/管理文件
-//   2. 使用团队资源管理器窗口连接到源代码管理
-//   3. 使用输出窗口查看生成输出和其他消息
-//   4. 使用错误列表窗口查看错误
-//   5. 转到“项目”>“添加新项”以创建新的代码文件，或转到“项目”>“添加现有项”以将现有代码文件添加到项目
-//   6. 将来，若要再次打开此项目，请转到“文件”>“打开”>“项目”并选择 .sln 文件
+*/
