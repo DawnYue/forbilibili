@@ -17,6 +17,4 @@ https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2017-relnotes#-visu
 https://opencv.org/opencv-3-4-1/
 https://pc.qq.com/detail/13/detail_22693.html   git 下载
 https://blog.csdn.net/qq_36556893/article/details/87977280   GitHub插件的安装和使用
-
-
 */
