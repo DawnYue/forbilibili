@@ -1,5 +1,6 @@
 opencv简单实践0：安装、配置与github（vs17，opencv341）opencv安装opencv配置opencv
 
+https://www.bilibili.com/video/BV1AE411w7M3/
 
 /*
 https://blog.csdn.net/a1570853041/article/details/79702380  OpenCV-3.4.1+VS2017的安装与配置
